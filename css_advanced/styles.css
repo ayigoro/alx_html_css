@@ -67,7 +67,6 @@ ul li a{
 }
 .smile-words{
   font-size: small;
-  line-height-step: 0px;
 }
 span{
   margin-right: 20px;
@@ -75,3 +74,15 @@ span{
 strong{
   color:rgb(127, 79, 127);
 }
+.tutorials{
+  background:rgb(176, 112, 176);
+  display: flex;
+  justify-content: space-around;
+}
+ .tutorials-text{
+  margin-left: 38px;
+ }
+
+ .spacing{
+  margin-top: 20px;
+ }
