@@ -1,0 +1,77 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family:sourcesans pro;
+  color: white;
+  box-sizing: border-box;
+}
+.logo{
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+}
+
+.header-container{
+  background-image: url(images-and-logo/Object.png);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  overflow: hidden;
+  list-style-type:none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  display: inline;
+}
+
+ul li a{
+  display: block;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.get-school{
+  text-align: center;
+  margin-top: 210px;
+  font-family: SourceSans Pro;
+  font-size: 55px;
+}
+.register-btn{
+  border-radius: 30px;
+  background-color:rgb(127, 79, 127);
+  width: 162px;
+  height: 44px;
+  margin-top: 30px;
+  border: none;
+  font-family: inherit;
+}
+.first-picture-text{
+  display:flex;
+  justify-content: space-around;
+  
+}
+.learn{
+  text-align: center;
+}
+.first-picture{
+  border-radius: 50%;
+}
+.smile-words{
+  font-size: small;
+  line-height-step: 0px;
+}
+span{
+  margin-right: 20px;
+}
+strong{
+  color:rgb(127, 79, 127);
+}
