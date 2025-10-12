@@ -1,10 +1,17 @@
 
+*, *::after,*::before{
+  margin: 0;
+}
+
 body{
   margin: 0;
   padding: 0;
-  font-family:sourcesans pro;
+  font-family:source sans 3;
   color: white;
   box-sizing: border-box;
+  width: 100%;
+  max-width: 100vw;
+  
 }
 .logo{
   width: auto;
@@ -13,7 +20,8 @@ body{
 }
 
 .header-container{
-  background-image: url(images-and-logo/Object.png);
+  background-image: url(assets/images/Object.png);
+
 }
 .navbar{
   display: flex;
@@ -42,12 +50,12 @@ ul li a{
 .get-school{
   text-align: center;
   margin-top: 210px;
-  font-family: SourceSans Pro;
+  font-family: Source Sans 3;
   font-size: 55px;
 }
 .register-btn{
   border-radius: 30px;
-  background-color:rgb(127, 79, 127);
+  background:#C271FF;
   width: 162px;
   height: 44px;
   margin-top: 30px;
@@ -72,12 +80,14 @@ span{
   margin-right: 20px;
 }
 strong{
-  color:rgb(127, 79, 127);
+  color:#C271FF;
 }
 .tutorials{
-  background:rgb(176, 112, 176);
+  background:#C271FF;
   display: flex;
   justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
  .tutorials-text{
   margin-left: 38px;
@@ -86,3 +96,107 @@ strong{
  .spacing{
   margin-top: 20px;
  }
+.video-section{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.video-image{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 20px;
+
+
+}
+.video-section h2{
+  color: #071629;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+  
+.image-icon-container{
+  position: relative;
+  width: 300px;
+}
+.image-icon-container .background-image{
+  width: 100%;
+  display: block;
+}
+.background-image{
+  width: 255px;
+  height: 154px;
+}
+.image-icon-container .play-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.smile-text{
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 100%;
+color:#071629;
+margin-top: 15px;
+}
+.smile-paragraph{
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 24px;
+ color: #07162980;
+ width: 242px;
+height: 48px;
+top: 199.6px;
+left: 13px;
+}
+.image-icon-rating{
+  margin-left: 20px;
+}
+.rating-name{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #C271FF;
+}
+.rating-minute{
+  font-weight: 600;
+  font-size: 14px;
+   color: #C271FF;
+}
+.rating-minute-container{
+  display: flex;
+  justify-content: space-between;
+}
+.membership-container{
+  background: #071629;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.membership-text{
+  font-weight: 700;
+  font-size: 32px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.middle-text{
+  display: flex;
+  justify-content: space-around;
+}
+.smile-text-container{
+  width: 257px;
+  height: 153px;
+  top: 168px;
+  left: 164px;
+}
+.register-btn{
+  background:#C271FF;
+  color: #FFFFFF;
+}
