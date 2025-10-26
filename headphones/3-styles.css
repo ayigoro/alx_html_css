@@ -1,0 +1,47 @@
+*,::after,::before{
+  margin: 0;
+}
+body{
+  margin: auto;
+   
+  
+}
+
+.contact-us-section{
+ background:white;
+ max-width: 1000px;
+ text-align: center;
+ margin: auto;
+}
+
+.contact-heading{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.contact-form{
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 150px;
+  margin: auto;
+
+}
+
+.contact-form label{
+  text-align: left;
+}
+
+.call-to-action-btn{
+  margin-bottom: 50px;
+  color: white;
+  background:#f16390;
+  border-radius: 20px;
+  padding: 7px 15px;
+  border: none;
+}
+
+.contact-form input{
+  border: none;
+  border-radius: 5px;
+}
