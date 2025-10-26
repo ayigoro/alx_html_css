@@ -1,0 +1,51 @@
+*,::after,::before{
+  margin: 0;
+}
+body{
+ margin: auto;
+ text-align: center;
+ max-width: 1000px;
+}
+.footer-container{
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 50px;
+   margin: auto;
+}
+ .socials-container{
+  padding-right: 30px;
+ }
+.socials-container .facebook{
+  width: 20px;
+  background: white;
+  border-radius: 50%;
+}
+.socials-container .twitter{
+  width: 20px;
+  background: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.socials-container .instagram{
+  width: 20px;
+  background: white;
+  border-radius: 50%;
+}
+
+.logo-container img{
+  padding-left: 30px;
+  width: 100px;
+}
+.all-container{
+   background:black;
+   color: white;
+}
+
+.last-para{
+  text-align: center;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+}
