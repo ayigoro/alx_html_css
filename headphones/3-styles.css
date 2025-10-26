@@ -43,5 +43,5 @@ body{
 
 .contact-form input{
   border: none;
-  border-radius: 5px;
+  border-top: 2px black solid;
 }
