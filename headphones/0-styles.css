@@ -34,6 +34,8 @@ body{
  padding: 0;
  overflow: hidden;
  margin-right: 100px;
+ display: flex;
+ flex-wrap: nowrap;
 }
 
 .navbar li{
@@ -67,8 +69,13 @@ body{
   margin: auto;
   text-align: center;
 }
+@media(max-width:507px){
+  .navbar a{
+    font-size: 10px;
+  }
+}
 
-@media(max-width: 621px){
+@media(max-width: 480px){
  .navbar{
   display: none;
  }
