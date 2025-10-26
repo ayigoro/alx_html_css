@@ -1,0 +1,69 @@
+/* what we do section */
+*,::after,::before{
+  margin: 0;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  
+}
+.what-wedo{
+  color: black;
+  background: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.various-logo-container{
+  display: flex;
+  font-size: 10px;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.para-1{
+   max-width: 450px;
+   margin: auto;
+   margin-bottom: 30px;
+   font-size: 10px;
+   text-align: center;
+}
+
+.first-heading{
+  margin-bottom: 30px;
+}
+
+.second-heading{
+  margin-bottom: 10px;
+}
+
+.second-para{
+  max-width: 140px;
+  margin-bottom: 40px;
+  
+}
+
+.music-icon{
+  width: 20px;
+  margin-bottom: 10px;
+  background:coral;
+  color: #f16390;
+}
+.first-set-logo{
+  display: flex;
+}
+.second-set-logo{
+  display: flex;
+}
+@media(max-width:480px){
+  .first-set-logo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-set-logo{
+    display: flex;
+    flex-direction: column;
+  }
+}
